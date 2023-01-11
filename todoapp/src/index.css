@@ -53,12 +53,15 @@ button{
   outline: none;
   margin-left: 10px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 button:hover{
   background-color: #20bf6b;
 }
 ol{
   margin-top: 50px;
+  margin-left: 30px;
+  cursor: pointer;
 }
 ol li{
   padding-left: 0px;
@@ -68,8 +71,10 @@ ol li{
   min-height: 40px;
   display: flex;
   align-items: center;
-  color: #efecf3;
+  color: black;
   text-transform: capitalize;
+  margin-left: 20px;
+  
 }
 .todo_style{
  display: flex;
@@ -88,4 +93,7 @@ ol li{
   margin: 0 15px 0 35px;
   color: aliceblue;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.5);
+}
+.todo_style .fa-times:hover{
+  background-color: #20bf6b;
 }
